@@ -1,4 +1,4 @@
-//your JS code here. If required.
+document.addEventListener("DOMContentLoaded", ()=>{
 const container = document.getElementById("buttons");
 const folder = "./sound";
 const sounds = ["applause", "boo", "gasp", "tada", "victory", "wrong"];
@@ -47,3 +47,5 @@ function stopSound(){
 
 
 
+
+})
