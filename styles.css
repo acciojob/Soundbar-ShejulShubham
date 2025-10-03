@@ -24,6 +24,13 @@
 	color: white;
 }
 
+.btn:hover {
+	background: darkviolet;
+	transform: scale(1.03) translateY(-2px);
+}
+
 .btn:active {
 	background: darkviolet;
+	transform: scale(0.95);
 }
+
