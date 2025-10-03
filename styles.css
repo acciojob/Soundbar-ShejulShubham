@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+#buttons {
+	background: lightblue;
+	max-width: 800px;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.btn {
+	background-color: violet;
+	padding: 5px;
+	border: none;
+	color: white;
+	transition: all 1s ease;
+}
+
+.stop {
+	background: red;
+	border: none;
+	color: white;
+}
+
+.btn:active {
+	background: darkviolet;
+}
